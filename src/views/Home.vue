@@ -6,7 +6,7 @@
       <div class="container">
         <h3>Últimos posts</h3>
         <div class="blog-cards">
-          <BlogCard v-for="(post, index) in sampleBlogCards" :key="index" />
+          <BlogCard :post="post" v-for="(post, index) in sampleBlogCards" :key="index" />
         </div>
       </div>
     </div>
