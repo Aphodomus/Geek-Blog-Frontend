@@ -104,10 +104,15 @@ export default {
         padding: 32px 16px;
         color: #000;
 
-        h1 {
+        h4 {
             padding-bottom: 8px;
             font-size: 20px;
             font-weight: 300;
+            transition: .5s ease-in all;
+
+            &:hover {
+                color: rgba(150, 150, 150, 0.8);
+            }
         }
 
         h6 {
@@ -127,7 +132,7 @@ export default {
             transition: .5s ease-in all;
 
             &:hover {
-                color: rgba(48, 48, 48, 0.8);
+                color: rgba(150, 150, 150, 0.8);
             }
 
             .arrow {
